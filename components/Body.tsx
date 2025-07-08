@@ -121,7 +121,7 @@ const Body = () => {
 
         <div id="usp-scroll-to"></div>
 
-        <Box />
+        {/* <Box /> */}
 
         <Carousel />
 

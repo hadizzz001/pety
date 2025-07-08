@@ -351,7 +351,7 @@ const Page = () => {
                           <h1 className="mb-2 myRed font-bold text-lg">
                             ${displayedPrice}
                             <span className="ml-1 text-sm">
-                              25% off
+                             {Math.round(((price - discount) / price) * 100)}% off
                             </span>
                           </h1>
                         </div>
@@ -364,7 +364,7 @@ const Page = () => {
                         <h1 className="mb-2 myRed font-bold text-lg">
                           ${discount}
                           <span className="ml-1 text-sm">
-                            25% off
+                          {Math.round(((price - discount) / price) * 100)}% off
                           </span>
                         </h1>
                       </div>

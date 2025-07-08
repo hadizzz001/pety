@@ -181,7 +181,7 @@ const Body = () => {
                                       )
                                     }
                                     <span className="ml-1 text-xs">
-                                      25% off
+                                      {Math.round(((item.price - item.discount) / item.price) * 100)}% off
                                     </span>
                                   </span>
                                 </div>
