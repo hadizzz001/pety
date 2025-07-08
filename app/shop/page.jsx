@@ -132,10 +132,10 @@ const Body = () => {
         <header className="br_text-white  br_p-3 br_pt-11 md:br_py-20 br_flex md:br_justify-center">
           <div className="br_text-left md:br_max-w-[600px] lg:br_max-w-[800px] md:br_text-center br_flex br_flex-col br_gap-2  md:br_gap-4 md:br_items-center">
             <h1 className="br_text-3xl md:br_text-4xl  myGray">
-              Our Products
+              Our Animals
             </h1>
             <p className="br_text-base-sans-stretched md:br_text-lg-sans-stretched myGray">
-              Discover stylish products to elevate your personal and professional expression.
+              Get new friend now and enjoy the best of the wildlife.
             </p>
           </div>
         </header>

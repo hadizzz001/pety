@@ -12,7 +12,7 @@ export default function OfferPopup() {
     if (
       window.location.hostname === "localhost" ||
       window.location.hostname === "petyshop.netlify.app" ||
-      window.location.hostname === "petyshop.com"
+      window.location.hostname === "petyshop.me"
     ) {
       const hasSeenPopup = localStorage.getItem("hasSeenOfferPopup");
       if (!hasSeenPopup) {
